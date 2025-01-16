@@ -1,0 +1,52 @@
+1-Make a project deployment.
+https://adhaammohamed.github.io/iti-task2/
+-----------------------------------------------------
+2-what is pull request and request & differrent bettween them?
+pull request is about proposing and reviewing changes, mostly done in Git hosting services.
+request in Git typically refers to fetching or pulling updates from a remote repository.
+------------------------------------------------------
+3-Make fork from your project and use it from anthor account
+-------------------------------------------------------
+4-What is the command to delete the branch "new-email"
+git branch -d new-email
+-----------------------------------------------------
+5-What is the command to push the current repository to the remote origin?
+git push origin main
+to push all local branches to the remote repository:
+git push --all origin
+----------
+git merge div-branch
+------------------------------------------------------------------------
+6-what is git Rebase and how to use it ?
+Git rebase is a command that integrates changes from one branch into another. 
+git checkout div-branch
+git checkout feature-branch
+---------------------------------------------------------------------------
+7-What is the command to get all the change history of the remote repository "origin"?
+git fetch origin
+---------------------------------------------------------------------------
+8-What is the command to show the differences between the current branch and the branch "new-email"?
+git diff new-email
+---------------------------------------------------------------------------
+9-what is tags and Make five tags and release two of them?
+Tags in Git are references that point to specific commits.
+git tag v1.0.0 -m "version1"
+git tag v1.1.0 -m "version2"
+git tag v2.0.0 -m "version3"
+git tag v2.1.0 -m "version4"
+git tag v3.0.0 -m "version5"
+---------------------------
+git tag 
+git push origin v1.0.0
+git push origin v1.1.0
+
+
+
+
+
+
+
+
+
+
+
